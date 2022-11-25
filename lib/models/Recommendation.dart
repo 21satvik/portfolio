@@ -19,14 +19,8 @@ final List<Recommendation> recommendations = [
   ),
   Recommendation(
     name: "Dr. C. MALATHY",
-    source: "YouTube",
+    source: "Letter Of Recommendation",
     text:
         "I had seen Satvik's work at Samsung Prism Research Internship as I was part of the research as a Professor. While working on this project he has shown extraordinary research skills to come up with proof of concept for the problem which didn't have any prior solution.",
-  ),
-  Recommendation(
-    name: "Roshan Shetty",
-    source: "YouTube",
-    text:
-        "Very straightforward, professional and also the best flutter videos in the youtube! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!",
   ),
 ];

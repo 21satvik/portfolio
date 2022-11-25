@@ -16,23 +16,18 @@ List<Project> demo_projects = [
         "A production ready API with health check and database on AWS DynamoDB. Currently hosted on AWS ec2.",
   ),
   Project(
-    title: "Outlook Email App Redesign - Flutter Fully Responsive Design UI",
+    title: "Face Recognition App",
     description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "A robust real-time facial recognition system using the pre-trained Facenet Model and MTCNN. In this app, images are fed to a training model, a normalizer algorithm of Scikit is used and output is shown in real-time using a detection algorithm.",
   ),
   Project(
-    title: "Chat/Messaging App Light and Dark Theme - Flutter UI",
+    title: "Flutter Chat App",
     description:
-        "Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices also has a dark and light theme. We create in total 4 screens all of that support both Dark Theme and Light Theme. At first, we design a welcome screen that contains an image with a tag line also has a skip button.",
+        "Today we gonna build messing/chat app #ui using #flutter that runs both Android and iOS devices. App database including chat messages and user data is maintained on Cloud Firestore.",
   ),
   Project(
-    title: "Welcome page, Login Page and Sign up page - Flutter UI",
+    title: "Portfolio Website",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
-  ),
-  Project(
-    title: "Covid-19 App - Flutter UI",
-    description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "Everything you see here is built using Flutter. This website is fully responsive and can be viewed on any device!",
   ),
 ];
