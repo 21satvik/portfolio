@@ -120,11 +120,11 @@ class AnimatedText extends StatelessWidget {
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "complete e-Commerce app UI.",
+          "production ready APIs.",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Chat app with dark and light theme.",
+          "cloud based applications and services.",
           speed: Duration(milliseconds: 60),
         ),
       ],
