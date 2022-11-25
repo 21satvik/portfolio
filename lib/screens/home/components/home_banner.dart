@@ -144,7 +144,7 @@ class FlutterCodedText extends StatelessWidget {
         text: "<",
         children: [
           TextSpan(
-            text: "flutter",
+            text: "Loading in",
             style: TextStyle(color: primaryColor),
           ),
           TextSpan(text: ">"),

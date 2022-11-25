@@ -44,25 +44,6 @@ class HighLightsInfo extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: defaultPadding),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    HeighLight(
-                      counter: AnimatedCounter(
-                        value: 500,
-                        text: "+",
-                      ),
-                      label: "Connections",
-                    ),
-                    HeighLight(
-                      counter: AnimatedCounter(
-                        value: 30,
-                        text: "+",
-                      ),
-                      label: "Github Projects",
-                    ),
-                  ],
-                ),
               ],
             )
           : Row(
