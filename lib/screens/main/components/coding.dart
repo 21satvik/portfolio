@@ -38,8 +38,8 @@ class Coding extends StatelessWidget {
           label: "Java",
         ),
         AnimatedLinearProgressIndicator(
-          percentage: 0.58,
-          label: "C++",
+          percentage: 0.70,
+          label: "AWS",
         ),
       ],
     );

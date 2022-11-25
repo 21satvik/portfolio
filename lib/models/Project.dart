@@ -11,9 +11,9 @@ List<Project> demo_projects = [
         "An App widely accessible for storing and sharing information about buildings/offices/schools/marketplace etc which would be very helpful to persons with disabilities.",
   ),
   Project(
-    title: "E-Commerce Complate App - Flutter UI",
+    title: "Golang DynamoDB API",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
+        "A production ready API with health check and database on AWS DynamoDB. Currently hosted on AWS ec2.",
   ),
   Project(
     title: "Outlook Email App Redesign - Flutter Fully Responsive Design UI",
