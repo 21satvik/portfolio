@@ -1,8 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/models/Project.dart';
 import 'package:flutter_profile/responsive.dart';
 
 import '../../../constants.dart';
+import '../../../services/download_service.dart';
 
 class ProjectCard extends StatelessWidget {
   const ProjectCard({
@@ -11,6 +13,12 @@ class ProjectCard extends StatelessWidget {
   }) : super(key: key);
 
   final Project project;
+
+  Future<void> _navigateTo(String url) async {
+    DownloadService downloadService =
+        kIsWeb ? WebDownloadService() : MobileDownloadService();
+    await downloadService.download(url: url);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -35,7 +43,9 @@ class ProjectCard extends StatelessWidget {
           ),
           Spacer(),
           TextButton(
-            onPressed: () {},
+            onPressed: () {
+              _navigateTo(project.repository!);
+            },
             child: Text(
               "Read More >>",
               style: TextStyle(color: primaryColor),
